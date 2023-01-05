@@ -26,18 +26,18 @@ app = FastAPI()
 @app.post("/remove_bg")
 async def remove_bg(img_url):
 
-    name = ''.join([random.choice(string.ascii_uppercase + string.ascii_lowercase) for j in range(10)]) + '.png'
+    filename = ''.join([random.choice(string.ascii_uppercase + string.ascii_lowercase) for j in range(10)]) + '.png'
 
-    urllib.request.urlretrieve(img_url, './{}'.format(name))
+    urllib.request.urlretrieve(img_url, filename)
 
-    img = cv2.imread('./{}'.format(name))
+    img = cv2.imread(filename)
 
     output = rembg.remove(img)
 
-    cv2.imwrite('./{}'.format(name), output)
+    cv2.imwrite(filename, output)
 
-    client.upload_file('./{}'.format(name), bucket_name, name)
+    client.upload_file(filename, bucket_name, name)
 
-    os.remove('./{}'.format(name))
+    os.remove(filename)
 
-    return {"rmv_img_url": 'https://{}.s3.amazonaws.com/{}'.format(bucket_name, name)}
+    return {"rmv_img_url": 'https://{}.s3.amazonaws.com/{}'.format(bucket_name, filename)}
