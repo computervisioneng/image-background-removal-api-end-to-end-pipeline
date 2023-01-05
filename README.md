@@ -73,7 +73,7 @@ Start NGINX.
     
 Update EC2 security-group settings for your instance to allow HTTP traffic to port 80.
 
-### image background removal served through an API
+#### image background removal served through an API
 
     git clone https://github.com/computervisiondeveloper/image-background-removal-api-end-to-end-pipeline.git
     
