@@ -79,8 +79,18 @@ Update EC2 security-group settings for your instance to allow HTTP traffic to po
     
     cd image-background-removal-api-end-to-end-pipeline
 
+Create a virtual environment and install requirements.
+
+    sudo apt install python3-virtualenv
+
+    virtualenv venv --python=python3
+    
+    source venv/bin/activate
+
     pip install -r requirements.txt
-        
+
+Launch app.
+    
     python3 -m uvicorn main:app
 
 
