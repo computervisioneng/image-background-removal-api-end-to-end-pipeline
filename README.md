@@ -12,6 +12,8 @@ We are going to work on a simplified end to end pipeline.
 
 ### planning
 
+![img](https://github.com/computervisiondeveloper/image-background-removal-api-end-to-end-pipeline/blob/14ff384e12a2b964eb6b3bb25a286953e1eb8303/planning.png)
+
 ### execution
 
 #### state of the art review
