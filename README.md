@@ -77,10 +77,10 @@ Update EC2 security-group settings for your instance to allow HTTP traffic to po
 
     git clone https://github.com/computervisiondeveloper/image-background-removal-api-end-to-end-pipeline.git
     
-    pip install -r requirements.txt
-    
     cd image-background-removal-api-end-to-end-pipeline
-    
+
+    pip install -r requirements.txt
+        
     python3 -m uvicorn main:app
 
 
