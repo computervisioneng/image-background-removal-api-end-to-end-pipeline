@@ -36,7 +36,7 @@ async def remove_bg(img_url):
 
     cv2.imwrite(filename, output)
 
-    client.upload_file(filename, bucket_name, name)
+    client.upload_file(filename, bucket_name, filename)
 
     os.remove(filename)
 
