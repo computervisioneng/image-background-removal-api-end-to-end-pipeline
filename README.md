@@ -1,8 +1,12 @@
 # image-background-removal-api-end-to-end-pipeline
 
+End to end pipeline real world computer vision project!
+
+[![Watch the video](https://img.youtube.com/vi/FkIX2FH7HQ8/0.jpg)](https://www.youtube.com/watch?v=FkIX2FH7HQ8)
+
 ## pipeline
 
-We are going to work on a simplified end to end pipeline.
+We are going to work on this simplified end to end pipeline:
 
 ![img](https://github.com/computervisiondeveloper/image-background-removal-api-end-to-end-pipeline/blob/b586baa186478e9f2b8be9ef878a2d6b6daa8b15/simplified_pipeline.png)
 
