@@ -12,7 +12,7 @@ We are going to work on this simplified end to end pipeline:
 
 ### requirements
 
-[This](https://docs.google.com/document/d/15IcKAXee-lC-KABkP6USPHWp9rVaOUwWg5rA2ZpEqLQ/edit#).
+[This](https://docs.google.com/document/d/1CbJLR0CW8UoJ3ZqIi8rkTQCDcBDnaenN/edit?usp=drive_link&ouid=107960887514237623929&rtpof=true&sd=true).
 
 ### planning
 
@@ -22,7 +22,7 @@ We are going to work on this simplified end to end pipeline:
 
 #### state of the art review
 
-[This](https://docs.google.com/document/d/16E6vUTD4_U3mfoygmmEufgJEVG9boW8qcddvZ7-Uluo/edit#).
+[This](https://docs.google.com/document/d/1okXH0WwAznkjQCDh_ZY9uRtl9u5aocl5/edit?usp=drive_link&ouid=107960887514237623929&rtpof=true&sd=true).
 
 #### background removal
 
@@ -100,4 +100,4 @@ Launch app.
 
 ### deliverable
 
-[This](https://docs.google.com/document/d/1C0K3h5NMzT7LyNXV1Tb-mMpxStjDZxwYO6_JbylVzfM/edit#heading=h.1ii8xb93tsgb).
+[This](https://docs.google.com/document/d/1zwRmXQDsDvB9vg2lHc3zYwjIxJ4b-YNu/edit?usp=drive_link&ouid=107960887514237623929&rtpof=true&sd=true).
